@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jainrosh_awesome_compose_1721841018198-pr-trigger-input-set
+  identifier: Build_jainrosh_awesome_compose_1721841018198prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jainrosh_awesome_compose_1721841018198
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
